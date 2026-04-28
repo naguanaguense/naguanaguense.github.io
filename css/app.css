@@ -1,0 +1,219 @@
+/* CSS3 Document */
+@charset "utf-8";
+body,
+html {
+  background-image: url(fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  overflow: auto;
+}
+/*table{
+   font-family: Arial;
+   font-size: 14px;
+}
+th, td{
+    border: 1px solid gray;
+    padding: 10px;
+}
+*/
+.boton-volver {
+  border: solid 1px gray;
+}
+.boton-volver:hover {
+  border: solid 1px black;
+}
+.boton-crear {
+  border: solid 1px green;
+}
+.boton-crear:hover {
+  border: solid 1px gray;
+}
+.boton-editar {
+  border: solid 1px blue;
+}
+.boton-editar:hover {
+  border: solid 1px gray;
+}
+.boton-eliminar {
+  border: solid 1px red;
+}
+.boton-eliminar:hover {
+  border: solid 1px gray;
+}
+.boton-edit:hover {
+  border: solid 1px blue;
+}
+.boton-delete:hover {
+  border: solid 1px red;
+}
+
+.footer {
+  font-size: 12px;
+}
+.rounded {
+  border-radius: 0.75rem !important;
+}
+.rounded-top {
+  border-top-left-radius: 0.75rem !important;
+  border-top-right-radius: 0.75rem !important;
+}
+.rounded-bottom {
+  border-bottom-right-radius: 0.75rem !important;
+  border-bottom-left-radius: 0.75rem !important;
+}
+.b-t {
+  border-top: 0;
+}
+.b-l {
+  border-left: 0;
+}
+.b-r {
+  border-right: 0;
+}
+.b-b {
+  border-bottom: 0;
+}
+.aumenta-texto {
+  font-size: 18px;
+}
+.sombra-texto-black {
+  text-shadow: 0 0 0 black, 0 0 1em black, 0 0 0.2em black;
+}
+.sombra-texto-gray {
+  text-shadow: 0 0 0 white, 0 0 1em white, 0 0 0.2em gray;
+}
+.sombra-texto-white {
+  text-shadow: 0 0 0 white, 0 0 1em white, 0 0 0.2em white;
+}
+
+.trans {
+  background: rgba(255, 255, 255, 0.7);
+}
+.bg-black {
+  background: #000000;
+}
+.bg-blue {
+  background: blue;
+}
+.trans-negro {
+  background: rgba(0, 0, 0, 0.3);
+}
+.text-black {
+  color: black;
+}
+.text-black.l {
+  color: black;
+}
+.text-blue {
+  color: blue;
+}
+.text-orange {
+  color: orange;
+}
+.text-verde {
+  color: rgba(50, 110, 25, 1);
+}
+.trans-verde {
+  background: rgba(124, 253, 0, 0.6);
+}
+.my-icon {
+  text-shadow: 0 0 6px #ffff00;
+}
+.borde {
+  border: 3px solid gray;
+}
+.borde-capa {
+  border: 2px solid gray;
+}
+.mi-modal {
+  background: 0, 0, 0, 0.8;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+  transition: all 1s;
+  z-index: 1;
+  overflow: auto;
+}
+.confirm-delete {
+  width: 50%;
+  margin: 15% auto;
+  position: relative;
+}
+.desplazar-contenido {
+  overflow: auto;
+}
+.boton-enlace {
+  cursor: pointer;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.page-link {
+  color: green;
+}
+
+.page-link:hover {
+  color: violet;
+  text-decoration: none;
+}
+
+.page-item.active .page-link {
+  color: white;
+  background-color: gray;
+  border-color: gray;
+}
+
+.password {
+  text-security: disc;
+  -webkit-text-security: disc;
+  font-size: 20px;
+}
+
+.font-input {
+  font-size: 20px;
+}
+
+.geografico {
+  width: 240px;
+  height: 340px;
+}
+
+.geolist {
+  width: 220px;
+  height: 195px;
+}
+.TrueFalseDialog {
+  width: 25%;
+  padding: 0;
+  /*height: 195px;*/
+}
+.dialog-title {
+  padding-top: 10px;
+  padding-left: 12px;
+  padding-bottom: 6px;
+}
+.dialog-body {
+  padding: 12px;
+}
+.dialog-button {
+  display: flex;
+  justify-content: flex-end;
+
+  padding-right: 6px;
+  padding-bottom: 12px;
+}
